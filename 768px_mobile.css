@@ -1,3 +1,28 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.color1 {
+  color: #ec5242;
+}
+
+.color2 {
+  color: #272a31;  
+}
+
+#section1 {
+  background-image: url("images/backgrounds/bg1H.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #d3d3d3;
+  padding: 5vw 5vw 20vw 5vw;
+}
+
 .top-bar, .nav-bar {
   display: none;    
 }
@@ -6,6 +31,7 @@
   cursor: pointer;
   font-size: 55px;
   color: #272a31;
+  margin: auto auto 8% 4%;
   transition: transform 0.48s;
 }
 
@@ -15,4 +41,40 @@
 
 .menu-icon .fa-bars:active {
   transform: scale(1.1);
+}
+
+.content .line1 {
+  font-size: 2rem;  
+  font-weight: lighter;
+  margin-bottom: 0;
+}
+
+.content .line2 {
+  font-size: 3rem;
+  font-weight: 800;
+  letter-spacing: -1.5px;
+  line-height: 50px;
+  margin-top: 0;  
+}
+
+.content p {
+  font-size: 1.25rem;
+  padding: 3%;
+  border: 2px solid #fff;
+  line-height: 35px;
+  letter-spacing: -1px;
+}
+
+.line3 {
+  font-weight: 800;
+  font-size: 2rem;
+  letter-spacing: 0.1px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.line4 {
+  font-size: 1.25rem;
+  margin: 0;  
+  font-weight: lighter;
 }
