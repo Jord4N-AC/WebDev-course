@@ -44,7 +44,7 @@ body {
 }
 
 .content .line1 {
-  font-size: 2rem;  
+  font-size: 2rem;
   font-weight: lighter;
   margin-bottom: 0;
 }
@@ -77,4 +77,131 @@ body {
   font-size: 1.25rem;
   margin: 0;  
   font-weight: lighter;
+}
+
+/* SECTION 2 Program Content Section */
+#program-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url("images/backgrounds/black_bgH.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(41, 36, 36);
+  padding: 7vw 5vw;
+}
+
+#program-section h2,
+.cont p,
+.btn-join {
+  color: #fff;
+}
+
+#program-section h2 {
+  font-size: 1.6rem;
+}
+
+.divider1 {
+  height: 4px;
+  width: 10vw;
+  background-color: #ec5242;
+  border-radius: 4px;
+}
+
+#cont-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 7vw 0;
+}
+
+#cont-container h3 {
+  color: #ec5242;  
+}
+
+.cont {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: rgba(255, 255, 255, 0.253);
+  padding: 4%;
+  margin-bottom: 3%;
+  border-radius: 1px;
+}
+
+.cont i,
+.cont h3 {
+  margin: 0;
+  padding-right: 5px;
+}
+
+.cont i {
+  width: 15%;  
+}
+
+.cont h3 {
+  width: 25%;
+  font-size: 1.5rem;
+}
+
+.cont p {
+  width: 60%;
+  margin: 0;
+  font-size: 1.1rem;
+  line-height: 30px;
+}
+
+.fas, .far {
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+}
+
+.desktop {
+  display: none;
+}
+
+.btn-join {
+  background-color: #ec5242;
+  text-decoration: none;
+  padding: 30px 40px;
+  margin-bottom: 7vw;
+  font-size: 1.4rem;
+  transition: box-shadow 0.35s, transform 0.5s;
+}
+
+.btn-join:hover {  
+  transform: scale(1.1);
+  box-shadow: 0 0 20px #000;
+}
+
+.btn-join:active {
+  /* color: #fff;
+  background-color: #ec5242; */
+  background-color: #ec2e19;
+}
+
+@media (max-width: 630px) {
+  .cont {
+    flex-wrap: wrap;
+  }
+
+  .cont i,
+  .cont h3
+   {
+    margin-bottom: 10px;
+    margin-right: 20px;
+  }
+    
+  .cont p {
+    width: 100%;
+  }  
+}
+
+@media (max-width: 500px) {
+  .cont i,
+  .cont h3
+   {
+    width: 100%;
+  }  
 }
