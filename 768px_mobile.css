@@ -205,3 +205,74 @@ body {
     width: 100%;
   }  
 }
+
+/* SECTION 3 Featured Teachers */
+#featured-teachers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 7vw 5vw;
+}
+
+#featured-teachers h2,
+.details h3,
+.details p {
+  color: #272a31;
+}
+
+
+#featured-teachers h2 {
+  font-size: 1.6rem;
+}
+
+.prof {
+  display: flex;
+  margin-bottom: 5vw;
+  box-shadow: 0 0 20px #90807d;
+  border-radius: 5px;
+  padding: 5vw;
+}
+
+.prof1 {
+  margin-top: 5vw;
+}
+
+.prof img {
+  width: 200px;
+  /* border: 15px solid #272a3181; */
+}
+
+.details h3 {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+ .details em {
+   font-size: 1.1rem;
+   color: #ec5242;
+ }
+
+ .divider2 {
+  height: 2px;
+  width: 5vw;
+  background-color: #615958;
+  border-radius: 4px;
+  margin-top: 10px;
+ }
+
+ .details p {
+  line-height: 25px;
+  font-weight: bold;
+ }
+
+/* MEDIA */
+@media (max-width: 520px) {
+  .prof {
+    flex-direction: column;
+  }
+}
+
+/* SECTION 3 */
+#partner-section {
+  border: 1px solid #000;
+}
