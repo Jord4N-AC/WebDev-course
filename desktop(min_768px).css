@@ -24,6 +24,20 @@
 
 .top-bar .fab {
   font-size: 1.3rem;
+  transition: all 0.35s ease-out;
+}
+
+.top-bar .fab:hover {
+  transform: scale(1.3);
+}
+
+.top-bar .fab:active,
+.top-bar a:active {
+  color: #ec5242;
+}
+
+.link-text:hover {
+  text-decoration: underline #fff solid;
 }
 
 .logout {
@@ -32,8 +46,8 @@
 
 .top-bar ul a {
   color: #fff;
+  text-decoration-line: underline;
 }
-
 
 .menu-icon {
   display: none;
