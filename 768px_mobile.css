@@ -12,7 +12,7 @@ body {
 }
 
 .color2 {
-  color: #272a31;  
+  color: #272a31;
 }
 
 #section1 {
@@ -24,7 +24,7 @@ body {
 }
 
 .top-bar, .nav-bar {
-  display: none;    
+  display: none;
 }
 
 .menu-icon .fa-bars {
@@ -75,7 +75,7 @@ body {
 
 .line4 {
   font-size: 1.25rem;
-  margin: 0;  
+  margin: 0;
   font-weight: lighter;
 }
 
@@ -118,7 +118,7 @@ body {
 }
 
 #cont-container h3 {
-  color: #ec5242;  
+  color: #ec5242;
 }
 
 .cont {
@@ -138,7 +138,7 @@ body {
 }
 
 .cont i {
-  width: 15%;  
+  width: 15%;
 }
 
 .cont h3 {
@@ -171,7 +171,7 @@ body {
   transition: box-shadow 0.35s, transform 0.5s;
 }
 
-.btn-join:hover {  
+.btn-join:hover {
   transform: scale(1.1);
   box-shadow: 0 0 20px #000;
 }
@@ -193,10 +193,10 @@ body {
     margin-bottom: 10px;
     margin-right: 20px;
   }
-    
+
   .cont p {
     width: 100%;
-  }  
+  }
 }
 
 @media (max-width: 500px) {
@@ -204,7 +204,7 @@ body {
   .cont h3
    {
     width: 100%;
-  }  
+  }
 }
 
 /* SECTION 3 Featured Teachers */
@@ -327,4 +327,24 @@ body {
 
 #link5 {
   font-size: 2rem;
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 5vw;
+  flex-wrap: wrap;
+}
+
+footer img {
+  width: 200px;
+  margin-right: 25px;
+}
+
+footer h5 {
+  color: #272a31;
+  flex: 2 1;
 }
