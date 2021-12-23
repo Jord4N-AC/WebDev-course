@@ -50,6 +50,7 @@ body {
 }
 
 .content .line2 {
+  display: inline;
   font-size: 3rem;
   font-weight: 800;
   letter-spacing: -1.5px;
@@ -66,6 +67,7 @@ body {
 }
 
 .line3 {
+  display: inline;
   font-weight: 800;
   font-size: 2rem;
   letter-spacing: 0.1px;
@@ -129,6 +131,13 @@ body {
   padding: 4%;
   margin-bottom: 3%;
   border-radius: 1px;
+  box-sizing: border-box;
+  border: 2px solid transparent;
+  transition: all 0.05s;
+}
+
+.cont:hover {
+  border: 2px solid #fff;
 }
 
 .cont i,
@@ -236,6 +245,10 @@ body {
 
 .prof1 {
   margin-top: 5vw;
+}
+
+.prof6 {
+  align-self: stretch;
 }
 
 .prof img {
