@@ -31,17 +31,47 @@
 }
 
 .logout {
-  margin-right: 10%;  
+  margin-right: 10%;
 }
 
 .top-bar ul a {
   color: #fff;
 }
 
-.nav-bar {
-  display: flex;
-}
 
 .menu-icon {
   display: none;
+}
+
+/* NAVIGATION BAR */
+.nav-bar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #fff;
+}
+
+.logo {
+  width: 85px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.nav-links a {
+  color: #272a31;
+  font-size: 1.1rem;
+  transition: all 0.30s;
+}
+
+.nav-links a:hover {
+  color: #ec5242;
+  font-size: 1.2rem;
+}
+
+.nav-links a:active {
+  font-size: 1.1rem;
 }
