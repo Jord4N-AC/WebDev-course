@@ -10,10 +10,6 @@
 
 .top-bar {
   display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
   background-color: #414244;
 }
 
@@ -49,6 +45,7 @@
   justify-content: space-evenly;
   align-items: center;
   background-color: #fff;
+  margin-bottom: 10vw;
 }
 
 .logo {
