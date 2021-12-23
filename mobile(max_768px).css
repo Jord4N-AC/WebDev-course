@@ -23,7 +23,8 @@ body {
   padding: 5vw 5vw 20vw 5vw;
 }
 
-.top-bar, .nav-bar {
+.top-bar,
+.nav-bar {
   display: none;
 }
 
