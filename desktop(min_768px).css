@@ -37,7 +37,7 @@
 }
 
 .link-text:hover {
-  text-decoration: underline #fff solid;
+  text-decoration: underline solid #fff;
 }
 
 .logout {
@@ -93,10 +93,6 @@
 }
 
 /* SECTION 2 Main Program */
-#program-section {
-  /* padding: 0; */
-}
-
 #cont-container {
   flex-direction: row;
   justify-content: center;
@@ -175,4 +171,14 @@
 
 .teach-header {  
   margin-bottom: 10vw;
+}
+
+/* SECTION 3 Partners*/
+#partner-section {
+  display: flex;
+}
+
+/* FOOTER */
+footer {
+  display: flex;
 }
