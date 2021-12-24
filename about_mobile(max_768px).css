@@ -45,6 +45,7 @@ body {
   }
   
   .content {
+    text-align: center;
     padding: 18vw 5vw;
   }
   
@@ -66,26 +67,23 @@ body {
   .content p {
     font-size: 1.25rem;
     padding: 3%;
-    border: 2px solid #fff;
     line-height: 35px;
     letter-spacing: -1px;
+    border: 2px solid #d3d3d3;
+    background-color: #fff;
   }
-  
-  .line3 {
-    display: inline;
-    font-weight: 800;
-    font-size: 2rem;
-    letter-spacing: 0.1px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+
+  .content .email-p {
+    background-color: transparent;
+    border: none;
+    padding-bottom: 0;
   }
-  
-  .line4 {
+
+  .email {
+    display: block;
     font-size: 1.25rem;
-    margin: 0;
-    font-weight: lighter;
   }
-  
+    
   /* SECTION 2 Program Content Section */
   #program-section {
     display: flex;
