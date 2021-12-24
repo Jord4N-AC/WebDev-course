@@ -92,7 +92,7 @@
   width: 60%;
 }
 
-/* Program Section */
+/* SECTION 2 Main Program */
 #program-section {
   /* padding: 0; */
 }
@@ -146,4 +146,33 @@
 
 .btn-join {
   display: none;
+}
+
+/* SECTION 3 Featured Teacher */
+#featured-teachers {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+.prof {
+  width: 40%;
+  padding: 3vw;
+}
+
+.prof1 {
+  margin-top: 0;
+}
+
+.hide {
+  display: flex;
+}
+
+#btn-more {
+  display: none;
+}
+
+.teach-header {  
+  margin-bottom: 10vw;
 }

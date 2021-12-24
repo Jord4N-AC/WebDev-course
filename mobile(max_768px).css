@@ -241,6 +241,14 @@ body {
   font-size: 1.6rem;
 }
 
+.teach-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
 .prof {
   display: flex;
   margin-bottom: 5vw;
@@ -271,10 +279,11 @@ body {
   font-weight: bold;
   margin-bottom: 8px;
 }
- .details em {
-   font-size: 1.1rem;
-   color: #ec5242;
- }
+
+.details em {
+  font-size: 1.1rem;
+  color: #ec5242;
+}
 
  .divider2 {
   height: 2px;
@@ -324,13 +333,13 @@ body {
   }
 
 /* MEDIA */
-@media (max-width: 520px) {
+@media (max-width: 520px), (max-width: 990px) {
   .prof {
     flex-direction: column;
   }
 }
 
-/* SECTION 3 */
+/* SECTION 3 Partners*/
 #partner-section {
   display: none;
   flex-direction: column;
