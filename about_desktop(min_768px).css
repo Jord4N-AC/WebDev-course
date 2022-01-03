@@ -100,88 +100,13 @@
   .content .divider1 {
     background-color: #ec5242;
   }
-
   
   /* SECTION 2 Main Program */
-  #cont-container {
-    flex-direction: row;
-    justify-content: center;
-    padding: auto;
-  }
+
   
-  @media screen and (max-width: 1115px) {
-    #cont-container {
-    flex-wrap: wrap;
-    }
-  }
-  
-  .cont {
-    flex-direction: column;
-    padding: 1%;
-    margin: 2px;
-    margin-top: 1%;
-    flex: 0 1;
-  }
-  
-  .cont i,
-  .cont h3,
-  .cont p {
-    width: 180px;
-    text-align: center;
-    padding: 0;
-  }
-  
-  .cont i {
-    margin-bottom: 10px;
-  }
-  
-  .desktop {
-    display: block;
-    color: #fff;
-    font-weight: bold;
-    transition: all 0.50s;
-  }
-  
-  .desktop:hover {
-    color: #ec5242;
-  }
-  
-  .desktop:active {
-    color: #fff;
-  }
-  
-  .btn-join {
-    display: none;
-  }
   
   /* SECTION 3 Featured Teacher */
-  #featured-teachers {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: stretch;
-    flex-wrap: wrap;
-  }
   
-  .prof {
-    width: 40%;
-    padding: 3vw;
-  }
-  
-  .prof1 {
-    margin-top: 0;
-  }
-  
-  .hide {
-    display: flex;
-  }
-  
-  #btn-more {
-    display: none;
-  }
-  
-  .teach-header {  
-    margin-bottom: 10vw;
-  }
   
   /* SECTION 3 Partners*/
   #partner-section {
