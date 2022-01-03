@@ -99,18 +99,11 @@
 
   .content .divider1 {
     background-color: #ec5242;
-  }
-  
-  /* SECTION 2 Main Program */
-
-  
-  
-  /* SECTION 3 Featured Teacher */
-  
+  } 
   
   /* SECTION 3 Partners*/
   #partner-section {
-    display: flex;
+    display: none;
   }
   
   /* FOOTER */
