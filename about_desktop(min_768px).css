@@ -88,9 +88,19 @@
   
   /* Main Content */
   .content {
-    padding: 10vw;
     width: 60%;
+    padding: 10vw;
+    margin: auto;
   }
+
+  .content .line1 {
+    display: none;
+  }
+
+  .content .divider1 {
+    background-color: #ec5242;
+  }
+
   
   /* SECTION 2 Main Program */
   #cont-container {

@@ -46,13 +46,14 @@ body {
   
   .content {
     text-align: center;
-    padding: 18vw 5vw;
+    padding: 15vw 5vw;
   }
   
   .content .line1 {
     font-size: 2rem;
     font-weight: lighter;
     margin: 0;
+    margin-bottom: 25px;
   }
   
   .content .line2 {
@@ -62,6 +63,11 @@ body {
     letter-spacing: -1.5px;
     line-height: 50px;
     margin-top: 0;
+  }
+
+  .content .divider1 {
+    background-color: transparent;
+    margin: 8% auto;
   }
   
   .content p {
@@ -82,6 +88,7 @@ body {
   .email {
     display: block;
     font-size: 1.25rem;
+    font-weight: bold;
   }
     
   /* SECTION 2 Logo Section */
