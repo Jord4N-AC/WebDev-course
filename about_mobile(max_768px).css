@@ -84,27 +84,24 @@ body {
     font-size: 1.25rem;
   }
     
-  /* SECTION 2 Program Content Section */
-  #program-section {
+  /* SECTION 2 Logo Section */
+  #section2 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* background-image: url("images/backgrounds/black_bgH.jpg"); */
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-color: rgb(41, 36, 36);
+    align-content: center;    
+    text-align: center;
     padding: 7vw 5vw;
+    background-color: #fff;
+    border-bottom: 2px solid #d3d3d3;
   }
   
-  #program-section h2,
+  #section2 h2,
   .cont p,
-  .btn-join,
   #partner-section h2 {
-    color: #fff;
+    color: #272a31;
   }
   
-  #program-section h2 {
+  #section2 h2 {
     font-size: 1.6rem;
   }
   
@@ -114,87 +111,33 @@ body {
     background-color: #ec5242;
     border-radius: 4px;
   }
-  
-  #cont-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 7vw 0;
+
+  #section2 .divider1 {
+    margin: auto;
   }
   
-  #cont-container h3 {
-    color: #ec5242;
-  }
-  
-  .cont {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    background-color: rgba(255, 255, 255, 0.253);
-    padding: 4%;
-    margin-bottom: 3%;
-    border-radius: 1px;
-    box-sizing: border-box;
-    border: 2px solid transparent;
-    transition: all 0.05s;
-  }
-  
-  .cont:hover {
-    border: 2px solid #fff;
-  }
-  
-  .cont i,
-  .cont h3 {
-    margin: 0;
-    padding-right: 5px;
-  }
-  
-  .cont i {
-    width: 15%;
-  }
-  
-  .cont h3 {
-    width: 25%;
-    font-size: 1.5rem;
-  }
-  
-  .cont p {
-    width: 60%;
-    margin: 0;
+  #section2 p {    
     font-size: 1rem;
     font-weight: bold;
     line-height: 25px;
   }
-  
-  .fas, .far {
-    font-size: 50px;
-    color: rgb(255, 255, 255);
+
+  .cont-logo {
+    display: flex;
+    justify-content: center;
+    margin: 5% auto auto auto;
+    padding: 5px 100px;
+    border: 2px solid #d3d3d3;
   }
   
-  .desktop {
-    display: none;
+  .cont-logo .logo {
+    min-width: 100px;
+    max-width: 200px;
+    width: 100%;
+    height: auto;
   }
-  
-  .btn-join {
-    background-color: #ec5242;
-    text-decoration: none;
-    padding: 30px 40px;
-    margin-bottom: 7vw;
-    font-size: 1.4rem;
-    transition: box-shadow 0.35s, transform 0.5s;
-  }
-  
-  .btn-join:hover {
-    transform: scale(1.1);
-    box-shadow: 0 0 20px #000;
-  }
-  
-  .btn-join:active {
-    /* color: #fff;
-    background-color: #ec5242; */
-    background-color: #ec2e19;
-  }
-  
+    
+    
   @media (max-width: 630px) {
     .cont {
       flex-wrap: wrap;
