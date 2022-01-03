@@ -109,4 +109,10 @@
   /* FOOTER */
   footer {
     display: flex;
+    background-color: #000;
+    color: #fff;
+  }
+
+  footer img {
+    filter: invert(100%);
   }
