@@ -139,7 +139,7 @@ body {
   
   /* SECTION 3 Partners*/
   #partner-section {
-    display: none;
+    display: flex;
     flex-direction: column;
     align-items: center;
     padding: 5vw 10vw;
@@ -147,6 +147,7 @@ body {
   }
   
   #partner-section h2 {
+    color: #fff;
     margin-bottom: 10px;
   }
   
@@ -203,7 +204,7 @@ body {
   
   /* FOOTER */
   footer {
-    display: none;
+    display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
