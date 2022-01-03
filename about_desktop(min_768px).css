@@ -56,9 +56,13 @@
   /* NAVIGATION BAR */
   .nav-bar {
     display: flex;
+    position: inherit;
+    height: auto;
+    width: auto;
     justify-content: space-evenly;
     align-items: center;
     background-color: #fff;
+    padding: 0;
   }
   
   .nav-bar .logo {
@@ -74,12 +78,14 @@
   .nav-links a {
     color: #272a31;
     font-size: 1.1rem;
+    line-height: normal;
     transition: all 0.30s;
   }
   
   .nav-links a:hover {
     color: #ec5242;
     font-size: 1.2rem;
+    transform: scale(1);
   }
   
   .nav-links a:active {
