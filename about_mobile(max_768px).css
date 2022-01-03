@@ -40,15 +40,36 @@ body {
   .nav-bar {
     position: fixed;
     height: 100vh;
-    width: 100%;
     left: 0;
     right: 0;
     background-color: #ec5342af;
     padding: 7%;
   }
-
-  .nav-bar .logo {
+  
+  .logo-cont {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .logo-cont .logo {
     width: 85px;
+  }
+
+  .close {
+    color: #272a31;
+    font-size: 60px;
+    cursor: pointer;
+    height: 35px;
+  }
+  
+  .close:hover {
+    color: #d3d3d3;
+    transition: all 0.05s;
+  }
+
+  .close:active {
+    color: #272a31;
+    transition: all 0.05s;
   }
 
   .nav-links a {
@@ -57,7 +78,7 @@ body {
     line-height: 80px;
     font-size: 2.5rem;
     font-weight: bold;
-    transition: all 0.05s;
+    transition: all 0.1s;
   }
 
   .nav-links a:hover {

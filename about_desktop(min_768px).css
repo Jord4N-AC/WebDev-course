@@ -68,6 +68,10 @@
   .nav-bar .logo {
     width: 85px;
   }
+
+  .close {
+    display: none;
+  }
   
   .nav-links {
     display: flex;
@@ -78,6 +82,7 @@
   .nav-links a {
     color: #272a31;
     font-size: 1.1rem;
+    font-weight: normal;
     line-height: normal;
     transition: all 0.30s;
   }
