@@ -49,30 +49,24 @@
     text-decoration-line: underline;
   }
   
-  .menu-icon {
-    display: none;
+  .menu-icon,
+  #mobie-menu {
+    display: none !important;
   }
-  
+
   /* NAVIGATION BAR */
   .nav-bar {
     display: flex;
-    position: inherit;
-    height: auto;
-    width: auto;
     justify-content: space-evenly;
     align-items: center;
     background-color: #fff;
-    padding: 0;
   }
   
   .nav-bar .logo {
     width: 85px;
   }
 
-  .close {
-    display: none;
-  }
-  
+   
   .nav-links {
     display: flex;
     justify-content: space-evenly;
@@ -82,15 +76,12 @@
   .nav-links a {
     color: #272a31;
     font-size: 1.1rem;
-    font-weight: normal;
-    line-height: normal;
     transition: all 0.30s;
   }
   
   .nav-links a:hover {
     color: #ec5242;
     font-size: 1.2rem;
-    transform: scale(1);
   }
   
   .nav-links a:active {
