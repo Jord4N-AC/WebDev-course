@@ -22,14 +22,12 @@ body {
     background-color: #d3d3d3;
   }
 
-  #section1 ul,
   #mobile-menu ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
   }
   
-  #section1 ul a,
   #mobile-menu ul a {
     text-decoration: none;
   }

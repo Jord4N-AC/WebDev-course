@@ -20,14 +20,83 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #d3d3d3;
-  /* padding: 5vw 5vw 20vw 5vw; */
 }
+
+#mobile-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+#mobile-menu ul a {
+    text-decoration: none;
+  }
 
 .top-bar,
 .nav-bar {
   display: none;
 }
 
+/* Mobile Menu */
+#mobile-menu {
+  display: none;
+  position: fixed;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #ec5342af;
+  padding: 7%;
+  z-index: 5;
+  transition: all 0.5s;
+}
+
+.logo-cont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-cont .logo {
+  width: 85px;
+}
+
+.close {
+  color: #272a31;
+  font-size: 60px;
+  cursor: pointer;
+  height: 35px;
+}
+
+.close:hover {
+  color: #d3d3d3;
+  transition: all 0.05s;
+}
+
+.close:active {
+  color: #272a31;
+  transition: all 0.05s;
+}
+
+#mobile-menu .nav-links a {
+  display: inline-block;
+  color: #272a31;
+  line-height: 80px;
+  font-size: 2.5rem;
+  font-weight: bold;
+  transition: all 0.1s;
+}
+
+#mobile-menu .nav-links a:hover {
+  color: #000;
+  transform: scale(1.1);
+}
+
+#mobile-menu .nav-links a:active {
+  color: #fff;
+}
+
+ /* Hamburguer Menu */
 .menu-icon .fa-bars {
   cursor: pointer;
   font-size: 55px;
