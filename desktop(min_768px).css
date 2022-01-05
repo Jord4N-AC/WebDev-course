@@ -162,7 +162,11 @@
   margin-top: 0;
 }
 
-.hide {
+.hide,
+.prof3,
+.prof4,
+.prof5,
+.prof6 {
   display: flex;
 }
 
