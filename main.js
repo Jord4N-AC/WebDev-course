@@ -1,3 +1,4 @@
+// Mobile Menu Funcionality
 const body = document.querySelector('body');
 const section1 = document.querySelector('#section1');
 const menuContent = document.querySelector('#mobile-menu');
@@ -73,9 +74,7 @@ function createCard() {
         </div>
     `;
     const btn = `
-        <button id="btn-more" class="uppercase">
-            more<span>&#62;</span>
-        </button>
+        <button id="btn-more" class="uppercase">more<span>&#62;</span></button>
     `;
 
     for(let i = content.images.length - 1; i >= 0 ; i -= 1) {
@@ -100,3 +99,30 @@ function createCard() {
     cardContainer.insertAdjacentHTML('beforeend', btn);
 }
 createCard();
+
+// More Button Functionality
+const moreBtn = document.querySelector('#btn-more');
+const spanBtn = document.querySelector('#btn-more span');
+const card3 = document.querySelector('.prof3');
+const card4 = document.querySelector('.prof4');
+const card5 = document.querySelector('.prof5');
+const card6 = document.querySelector('.prof6');
+
+function showCards() {
+    card3.classList.toggle('hide');
+    card4.classList.toggle('hide');
+    card5.classList.toggle('hide');
+    card6.classList.toggle('hide');
+
+    if(moreBtn.textContent === "more>") {
+        moreBtn.textContent = `less`;
+        moreBtn.appendChild(spanBtn);
+        spanBtn.style.transform = 'rotate(-90deg)';
+    } else {
+        moreBtn.textContent = `more`;
+        moreBtn.appendChild(spanBtn);
+        spanBtn.style.transform = 'rotate(90deg)';
+    }
+}
+
+moreBtn.addEventListener('click', showCards);

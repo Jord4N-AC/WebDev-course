@@ -297,6 +297,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 7vw 5vw;
+  transition: all 2s;
 }
 
 #featured-teachers h2,
@@ -334,12 +335,15 @@ body {
   align-self: stretch;
 }
 
-.hide,
 .prof3,
 .prof4,
 .prof5,
 .prof6 {
   display: none;
+}
+
+.hide {
+  display: flex;
 }
 
 .prof img {
@@ -385,7 +389,7 @@ body {
    cursor: pointer;
    transition: all 0.40s;
  }
- 
+
  #btn-more span {
    display: inline-block;
    font-size: 1.5rem;
@@ -395,14 +399,14 @@ body {
    transform: rotate(90deg);
   }
   
-  #btn-more:hover {
+ #btn-more:hover {
     transform: scale(1.1);
   }
   
   #btn-more:active {
     transform: scale(1);
     box-shadow: 0 0 10px #615958;
-   border: 1.5px solid #000;
+   border: 1.5px solid rgb(68, 63, 63);
   }
 
 /* MEDIA */
