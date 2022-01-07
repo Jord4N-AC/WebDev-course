@@ -12,16 +12,18 @@
 .nav-links a {
   color: #272a31;
   font-size: 1.1rem;
+  text-decoration: transparent;
   transition: all 0.3s;
 }
 
 .top-bar ul a {
   color: #fff;
-  text-decoration-line: underline;
+  text-decoration: transparent;
 }
 
 .top-bar a:active {
   color: #ec5242;
+  text-decoration: transparent;
 }
 
 .nav-links a:hover {
@@ -31,10 +33,6 @@
 
 .nav-links a:active {
   font-size: 1.1rem;
-}
-
-#section1 ul a {
-  text-decoration: none;
 }
 
 .top-bar {

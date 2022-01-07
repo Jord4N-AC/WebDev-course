@@ -185,10 +185,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  /* background-image: url("images/backgrounds/black_bgH.jpg"); */
-  background-repeat: no-repeat;
-  background-size: cover;
   background-color: rgb(41, 36, 36);
   padding: 7vw 5vw;
 }
