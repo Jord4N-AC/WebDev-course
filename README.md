@@ -7,9 +7,6 @@ Home Desktop               |  About Desktop            |  Home Mobile           
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 <img src="https://github.com/Jord4N-AC/WebDev-course/blob/create-website/images/screenshots/home_desktop.png" width="250px" height="" alt="home desktop"/>  |  <img src="https://github.com/Jord4N-AC/WebDev-course/blob/create-website/images/screenshots/about_desktop.png" width="250px" height="" alt="about desktop"/>  |  <img src="https://github.com/Jord4N-AC/WebDev-course/blob/create-website/images/screenshots/home_mobile.png" width="250px" height="" alt="home mobile"/>  |  <img src="https://github.com/Jord4N-AC/WebDev-course/blob/create-website/images/screenshots/about_mobile.png" width="250px" height="" alt="about mobile"/>
 
-<p></p>
-
-To see all the Screenshots, click [here](https://github.com/Jord4N-AC/WebDev-course/tree/create-website/images/screenshots)
 
 ## Live Demo
 To see this project live on the browser, click [here](https://jord4n-ac.github.io/WebDev-course/)
