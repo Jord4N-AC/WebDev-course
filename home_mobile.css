@@ -71,6 +71,16 @@ a {
   color: var(--black);
   font-size: 20px;
   font-weight: 600;
+  transition: all 0.4s;
+}
+
+.page-link:hover {
+  text-decoration: underline var(--black);
+}
+
+.page-link:active {
+  color: var(--orange);
+  text-decoration: underline var(--orange);
 }
 
 .page-link, #alone-link {
@@ -83,4 +93,12 @@ a {
   font-weight: 600;
   padding: 15px;
   border: 4px solid var(--orange);
+  transition: all 0.4s;
+}
+
+#alone-link:hover {
+  background-color: var(--orange);
+  font-weight: 900;
+  color: #fff;
+  border: 4px solid var(--black);
 }
