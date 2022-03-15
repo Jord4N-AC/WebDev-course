@@ -9,14 +9,20 @@ body {
   margin: 0;
 }
 
+.page-padding {
+  padding: 0 10vw;
+}
+
 a {
   text-decoration: transparent;  
 }
 
 /* Navigation Bar 1 */
 #bar-1 {
+  display: none;
   background-color: var(--black);
-  padding: 10px 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-align: right;
 }
 
@@ -55,7 +61,7 @@ a {
 
 /* Navigation Bar 2 */
 #bar-2 {
-  display: flex;
+  display: none;
   justify-content: space-between;
   align-items: center;
   position: sticky;

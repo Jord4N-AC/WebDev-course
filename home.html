@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebDev Courses</title>
     <link rel="stylesheet" href="home_mobile.css">
-    <link rel="stylesheet" href="home_desktop.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="home_desktop.css">
     <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +15,7 @@
 </head>
 <body>
     <!-- Navigation Bar 1 -->
-    <nav id="bar-1">
+    <nav id="bar-1" class="page-padding">
         <a class="link-bar-1" href="https://www.facebook.com/">
             <i class="fab fa-facebook-f"></i>
         </a>
@@ -28,7 +28,7 @@
     </nav>
 
     <!-- Navigation Bar 2 -->
-    <nav id="bar-2">
+    <nav id="bar-2" class="page-padding">
         <a id="logo-menu" href="#">
             <img src="images\logo\logo_no_bg.png" alt="WebPage Logo" title="Home">
         </a>
@@ -43,7 +43,7 @@
     </nav>
 
     <!-- Main Section -->
-    <section id="main-section">
+    <section id="main-section" class="page-padding">
         <main>
             <header id="main-header-group">
                 <h2>"Hello! Newbies"</h2>
@@ -63,7 +63,7 @@
     </section>
 
     <!-- Program Content Section -->
-    <section id="course-content">
+    <section id="course-content" class="page-padding">
         <header id="content-header-group">
             <h2>Main Program</h2>
             <div class="divider"></div>
@@ -129,7 +129,7 @@
     </section>
 
     <!-- Featured Teachers Section -->
-    <section id="featured-teachers">
+    <section id="featured-teachers" class="page-padding">
         <header id="teachers-header-group">
             <h2>Featured Teachers</h2>
             <div class="divider"></div>
@@ -243,7 +243,7 @@
     </section>
 
     <!-- Partner Section -->
-    <section id="partner-section">
+    <section id="partner-section" class="page-padding">
         <h2>Partner</h2>
         <div class="divider"></div>
         <nav id="partner-link-group">
@@ -258,7 +258,7 @@
         </nav>
     </section>
 
-    <footer>
+    <footer class="page-padding">
         <img id="footer-logo" src="images\logo\logo_no_bg.png" alt="WebPage Logo">
         <h4 id="footer-text" >2021 WebDev Courses. Some Rights Reserved</h4>
     </footer>
