@@ -13,6 +13,7 @@ a {
   text-decoration: transparent;  
 }
 
+/* Navigation Bar 1 */
 #bar-1 {
   background-color: var(--black);
   padding: 10px 0;
@@ -50,4 +51,36 @@ a {
 .text-link:active {
   text-decoration: underline #fff;
   color: #fff;
+}
+
+/* Navigation Bar 2 */
+#bar-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
+
+#logo-menu img {
+  width: 100px;
+}
+
+.page-link {
+  color: var(--black);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.page-link, #alone-link {
+  margin-left: 25px;
+}
+
+#alone-link {
+  color: var(--orange);
+  text-align: center;
+  font-weight: 600;
+  padding: 15px;
+  border: 4px solid var(--orange);
 }
