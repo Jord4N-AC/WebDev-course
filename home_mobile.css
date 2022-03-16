@@ -208,6 +208,10 @@ a {
   margin: 3% 0;
 }
 
+.card:hover {
+  border: 2px solid var(--white);
+}
+
 .card-header {
   display: flex;
   justify-content: space-between;
@@ -243,14 +247,32 @@ a {
 #join-btn {
   font-size: 24px;
   font-weight: 600;
-  background-color: #fb4c38;
   color: var(--white);
+  background-color: #fb4430;
   max-width: max-content;
   padding: 35px 65px;
 }
 
+#join-btn:hover {
+  box-shadow: 0 0 20px var(--white);
+}
+
+#join-btn:active {
+  box-shadow: none;
+}
+
 #see-program-link {
   font-size: 20px;
+  text-decoration: underline var(--white);
+  color: var(--white);
+}
+
+#see-program-link:hover {
+  text-decoration: underline var(--orange);
+  color: var(--orange);
+}
+
+#see-program-link:active {
   text-decoration: underline var(--white);
   color: var(--white);
 }
