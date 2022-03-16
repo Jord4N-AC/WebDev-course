@@ -31,3 +31,11 @@
 #see-program-link {
   display: block;
 }
+
+/* Featured Teachers Section */
+.teacher {
+  flex-direction: row;
+}
+
+.teacher-img-container {
+}
