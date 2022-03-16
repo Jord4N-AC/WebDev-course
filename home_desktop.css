@@ -1,4 +1,5 @@
-.mobile {
+.mobile,
+#more-btn {
   display: none;
 }
 
@@ -39,3 +40,4 @@
 
 .teacher-img-container {
 }
+

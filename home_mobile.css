@@ -346,6 +346,51 @@ a {
   color: var(--darkGray);
 }
 
+#more-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--darkGray);
+  padding: 15px;
+  border: 2px solid var(--lightGray);
+  margin: 0 auto 10% auto;
+  border-radius: 3px;
+  max-width: 400px;
+  transition: all 0.3s;
+}
+
+#angle-down-icon {
+  font-size: 30px;
+  color: var(--orange);
+  padding: 5px 10px;
+  border-radius: 50%;
+  width: 20px;
+  transition: all 0.4s;
+}
+
+#more-btn:hover .fa-angle-down {
+  transform: scale(1.2);
+  color: var(--white);
+}
+
+#more-btn:hover{
+  background-color: var(--orange);
+  color: var(--white);
+  border: 2px solid var(--orange);
+}
+
+#more-btn:active {
+  background-color: var(--white);
+  color: var(--black);
+  border: 2px solid var(--lightGray);
+}
+
+#more-btn:active .fa-angle-down {
+  color: var(--orange);
+}
 
 /* Media Queries */
 @media (min-width: 992px) {
