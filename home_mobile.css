@@ -29,9 +29,12 @@ a {
   line-height: 28px;
 }
 
+.desktop {
+  display: none;
+}
+
 /* Navigation Bar 1 */
 #bar-1 {
-  display: none;
   background-color: var(--darkGray);
   padding-top: 10px;
   padding-bottom: 10px;
@@ -73,7 +76,6 @@ a {
 
 /* Navigation Bar 2 */
 #bar-2 {
-  display: none;
   justify-content: space-between;
   align-items: center;
   position: sticky;
@@ -197,6 +199,11 @@ a {
   background-color: var(--orange);
 }
 
+#content-cards {
+  display: flex;
+  flex-direction: column;
+}
+
 .card {
   display: flex;
   justify-content: space-between;
@@ -205,7 +212,7 @@ a {
   padding: 25px;
   border: 2px solid transparent;
   border-radius: 2px;
-  margin: 3% 0;
+  margin: 3% auto;
 }
 
 .card:hover {
@@ -288,10 +295,10 @@ a {
   }
 }
 
-@media (max-width: 600px) {
-  .page-padding {
+@media (max-width: 600px), (min-width: 768px) {
+  /* .page-padding {
     padding: 0 6vw;
-  }
+  } */
 
   .card {
     flex-direction: column;
