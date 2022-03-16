@@ -38,6 +38,9 @@
   flex-direction: row;
 }
 
-.teacher-img-container {
+
+/* Partner Section */
+#partner-section {
+  display: block;
 }
 
