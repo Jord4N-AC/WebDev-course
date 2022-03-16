@@ -6,6 +6,7 @@
   --orange: #ec5242;
 }
 
+/* Common Styles */
 body {
   font-family: 'Lato', sans-serif;
   margin: 0;
@@ -166,4 +167,122 @@ a {
 #more-info-main h3 {
   font-size: 21px;
   margin: 0;
+}
+
+/* Program Content Section */
+#course-content {
+  background-color: var(--darkGray);
+  color: var(--white);
+}
+
+#content-header-group {
+  text-align: center;
+}
+
+#content-header-group,
+#content-footer {
+  padding: 6vw 0;
+}
+
+#content-header-group h2 {
+  font-size: 27px;
+  margin-top: 0;
+}
+
+.orange-divider {
+  width: 60px;
+  height: 2px;
+  margin: auto;
+  border-radius: 5px;
+  background-color: var(--orange);
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background-color: #d3d3d32f;
+  padding: 25px;
+  border: 2px solid transparent;
+  border-radius: 2px;
+  margin: 3% 0;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 35%;
+}
+
+.card-header h3 {
+  font-size: 24px;
+  width: 60%;
+  color: var(--orange);
+}
+
+.fas,
+.far {
+  text-align: center;
+  width: 25%;
+  font-size: 48px;
+}
+
+.card p {
+  margin: 0;
+  width: 60%;
+}
+
+#content-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#join-btn {
+  font-size: 24px;
+  font-weight: 600;
+  background-color: #fb4c38;
+  color: var(--white);
+  max-width: max-content;
+  padding: 35px 65px;
+}
+
+#see-program-link {
+  font-size: 20px;
+  text-decoration: underline var(--white);
+  color: var(--white);
+}
+
+
+/* Media Queries */
+@media (max-width: 740px) {
+  .card-header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .page-padding {
+    padding: 0 6vw;
+  }
+
+  .card {
+    flex-direction: column;
+  }
+
+  .card-header {
+    width: 100%;
+  }
+
+  .card-header h3,
+  .fas,
+  .far,
+  .card p  {
+    width: 100%;
+  }
 }
