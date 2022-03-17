@@ -83,7 +83,7 @@ a {
   background-color: var(--white);
 }
 
-#logo-menu img {
+.logo-menu img {
   width: 100px;
 }
 
@@ -103,11 +103,11 @@ a {
   text-decoration: underline var(--orange);
 }
 
-.page-link, #alone-link {
+.page-link, .alone-link {
   margin-left: 25px;
 }
 
-#alone-link {
+.alone-link {
   color: var(--orange);
   text-align: center;
   font-weight: 600;
@@ -116,7 +116,7 @@ a {
   transition: all 0.4s;
 }
 
-#alone-link:hover {
+.alone-link:hover {
   background-color: var(--orange);
   font-weight: 900;
   color: var(--white);
