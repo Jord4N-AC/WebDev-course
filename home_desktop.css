@@ -44,3 +44,8 @@
   display: block;
 }
 
+/* Footer */
+#footer-page {
+  display: flex;
+}
+

@@ -453,6 +453,26 @@ a {
   font-size: 2rem;
 }
 
+/* Footer */
+footer {
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: wrap;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#footer-logo {
+  width: 200px;
+  height: auto;
+  margin: auto;
+}
+
+#footer-text {
+  text-align: center;
+  margin: auto;
+}
+
 /* Media Queries */
 @media (min-width: 992px) {
   #teachers-info {
