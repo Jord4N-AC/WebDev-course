@@ -293,6 +293,7 @@ a {
 
 #teachers-info {
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
   margin: 10% 0;
 }
@@ -300,10 +301,8 @@ a {
 .teacher {
   display: flex;
   flex-direction: column;
-  background-color: rgb(167, 247, 250);
-  /* max-width: 350px; */
-  /* width: 100%; */
-  margin: 20px 10px;
+  background-color: #d3d3d31f;
+  margin: 20px 0;
 }
 
 .teacher-img-container {
@@ -311,15 +310,16 @@ a {
   background-image: url('images/backgrounds/bg-chess.png');
   background-repeat: no-repeat;
   background-size: 40%;
-  width: 180px;
-  height: 180px;
-
-  border: 1px solid red;
+  min-width: 180px;
+  min-height: 180px;
+  max-width: 180px;
+  max-height: 180px;
+  margin-right: 25px;
 }
 
 .teacher-photo {
-  width: 90%;
-  height: 90%;
+  max-width: 90%;
+  max-height: 90%;
   margin-top: 10%;
   margin-left: 10%;
   border: 1px solid var(--lightGray);
@@ -327,6 +327,9 @@ a {
 
 .teacher-name {
   font-size: 24px;
+  
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .teacher-degree {
@@ -476,12 +479,11 @@ footer {
 /* Media Queries */
 @media (min-width: 992px) {
   #teachers-info {
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
   }
 
-  .teacher {    
-    width: 45%;
+  .teacher {
+    width: 49%;
   }
 }
 
@@ -498,10 +500,6 @@ footer {
 }
 
 @media (max-width: 600px), (min-width: 768px) {
-  /* .page-padding {
-    padding: 0 6vw;
-  } */
-
   .card {
     flex-direction: column;
   }
