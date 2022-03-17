@@ -1,5 +1,6 @@
 .mobile,
-#more-btn {
+#more-btn,
+#menu-icon {
   display: none;
 }
 
