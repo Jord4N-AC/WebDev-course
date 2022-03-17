@@ -1,8 +1,11 @@
 const body = document.querySelector('body');
 const section1 = document.querySelector('#main-section');
 const mobileMenu = document.querySelector('#mobile-menu-container');
+const menuLinks = document.querySelectorAll('#mobile-menu-logo, .mobile-link, .alone-link-mobile');
 const closeIcon = document.querySelector('#close-icon');
 const menuBtn = document.querySelector('#menu-icon');
+
+
 
 
 function display() {
@@ -19,5 +22,10 @@ function disapear() {
     body.style.overflow = 'initial';
 }
 
+
 closeIcon.addEventListener('click', disapear);
 menuBtn.addEventListener('click', display);
+
+menuLinks.forEach(link => {
+    link.addEventListener('click', disapear);
+});
