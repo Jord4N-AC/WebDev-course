@@ -157,6 +157,16 @@ a {
   padding: 3px 5px;
   border: 3px solid transparent;
   border-radius: 3px;
+  transition: all 0.3s;
+}
+
+#close-icon:hover {
+  background-color: var(--lightGray);
+}
+
+#close-icon:active {
+  transition: none;
+  color: var(--orange);
 }
 
 .mobile-link-group {
@@ -169,6 +179,16 @@ a {
   font-weight: 600;
   color: var(--darkGray);
   margin: 10px 0;
+  transition: all 0.3s;
+}
+
+.mobile-link:hover {
+  color: var(--white);
+}
+
+.mobile-link:active {
+  transition: none;
+  color: var(--darkGray);
 }
 
 .alone-link-mobile {
