@@ -22,9 +22,19 @@ function disapear() {
     body.style.overflow = 'initial';
 }
 
+function disapearEcsResize(event) {
+    if(
+        event.key === 'Escape'
+        || innerWidth > 767
+    ) {
+        disapear();
+    }
+}
 
 closeIcon.addEventListener('click', disapear);
 menuBtn.addEventListener('click', display);
+window.addEventListener('keyup', disapearEcsResize);
+window.addEventListener('resize', disapearEcsResize);
 
 menuLinks.forEach(link => {
     link.addEventListener('click', disapear);
