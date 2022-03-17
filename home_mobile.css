@@ -126,10 +126,10 @@ a {
 /* Main Section */
 #main-section {
   background-color: var(--lightGray);
-  /* background-image: url('images/backgrounds/bg1.jpg'); */
+  background-image: url('images/backgrounds/section1_bg.png');
   background-repeat: no-repeat;
-  background-position: top left;
-  background-size: 100% 100%;
+  background-position: center;
+  background-size: cover;
   padding-top: 10vw;
   padding-bottom: 10vw;
 }
@@ -151,10 +151,11 @@ a {
 }
 
 #description-main {
+  background-color: #f6f6f7;
+  color: var(--darkGray);
   padding: 20px;
   border: 3px solid var(--white);
   max-width: 600px;
-  color: var(--darkGray);
 }
 
 #more-info-main {
