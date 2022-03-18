@@ -94,7 +94,7 @@
   .logo-menu img {
     width: 100px;
   }
-  
+
   .page-link {
     color: var(--darkGray);
     font-size: 20px;
@@ -102,19 +102,23 @@
     transition: all 0.4s;
   }
   
-  .page-link:hover {
+  .page-link:hover:not(.about-link) {
     text-decoration: underline var(--darkGray);
   }
   
-  .page-link:active {
+  .page-link:active:not(.about-link) {
     color: var(--orange);
     text-decoration: underline var(--orange);
   }
-  
+
+  .about-link {
+    text-decoration: underline var(--orange);
+   }
+
   .page-link, .alone-link {
     margin-left: 25px;
   }
-  
+     
   .alone-link {
     color: var(--orange);
     text-align: center;
@@ -149,8 +153,6 @@
     width: 100%;
     height: 100%;
     padding: 5% 10%;
-  
-    border: 4px solid blue;
   }
   
   #mobile-menu-header {
@@ -194,13 +196,18 @@
     transition: all 0.3s;
   }
   
-  .mobile-link:hover {
+  .mobile-link:hover:not(.about-link) {
     color: var(--white);
   }
   
-  .mobile-link:active {
+  .mobile-link:active:not(.about-link) {
     transition: none;
     color: var(--darkGray);
+  }
+
+  .about-link {
+    color: var(--orange);
+    text-shadow: 0 0 5px var(--white);
   }
   
   .alone-link-mobile {
