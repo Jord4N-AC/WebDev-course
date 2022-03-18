@@ -1,3 +1,11 @@
+:root {
+  --white: #fff;
+  --lightGray: #d3d3d3;
+  --darkGray: #272a31;
+  --black: #000;
+  --orange: #ec5242;
+}
+
 .mobile,
 #more-btn,
 #menu-icon {
@@ -55,11 +63,17 @@
 
 /* Partner Section */
 #partner-section {
-  display: block;
+  display: none;
 }
 
 /* Footer */
-#footer-page {
-  display: flex;
+#footer-page {  
+  background-color: var(--darkGray);
+  color: var(--lightGray);
+}
+
+#footer-logo {
+  filter: invert(90%);
+
 }
 

@@ -271,7 +271,7 @@
     margin: auto;
     max-width: 600px;
   }
-    
+
   #more-info-main h4,
   #email {
     color: var(--darkGray);
@@ -514,6 +514,7 @@
   
   /* Partner Section */
   #partner-section {
+    display: block;
     background-color: var(--darkGray);
     color: var(--lightGray);
   }
@@ -574,12 +575,14 @@
   }
   
   /* Footer */
-  footer {
+  #footer-page {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     flex-flow: wrap;
-    margin-top: 20px;
-    margin-bottom: 30px;
+    background-color: var(--white);
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
   
   #footer-logo {
