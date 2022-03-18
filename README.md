@@ -3,9 +3,9 @@ A WebDev Courses Web Site, where you can find a responsive main section that lin
 
 ## Screenshots
 
-Home Desktop               |  About Desktop            |  Home Mobile              | About Mobile
-:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-<img src="https://github.com/Jord4N-AC/WebDev-course/blob/create-website/images/screenshots/home_desktop.png" width="250px" height="" alt="home desktop"/>  |  <img src="https://github.com/Jord4N-AC/WebDev-course/blob/create-website/images/screenshots/about_desktop.png" width="250px" height="" alt="about desktop"/>  |  <img src="https://github.com/Jord4N-AC/WebDev-course/blob/create-website/images/screenshots/home_mobile.png" width="250px" height="" alt="home mobile"/>  |  <img src="https://github.com/Jord4N-AC/WebDev-course/blob/create-website/images/screenshots/about_mobile.png" width="250px" height="" alt="about mobile"/>
+Desktop                    |  Mobile            
+:-------------------------:|:-------------------------:
+<img src="images/screenshots/home_desktop.png" width="250px" height="" alt="home desktop"/> | <img src="images/screenshots/home_mobile.png" width="250px" height="" alt="home mobile"/>
 
 
 ## Live Demo
