@@ -55,11 +55,10 @@
   display: block;
 }
 
-/* Featured Teachers Section */
-.teacher {
-  flex-direction: row;
+/* Logo Section */
+#p-logo-section::after {
+  content: 'The competition was witnessed by so many fans, they were part of the jury, their opinion was a very important part in this process, after this the Logo was analyzed by experts for the final decision.';
 }
-
 
 /* Partner Section */
 #partner-section {
