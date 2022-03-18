@@ -81,3 +81,48 @@ const teachersData = [
         description: 'He has been leading open-source projects at the Mozilla Foundation such as the open source movement.',
     },
 ];
+
+
+function createTeacherSection() {
+    const teacherSection = document.querySelector('#featured-teachers');
+    const header = `
+    <header id="teachers-header-group">
+        <h2 id="teachers-header">Featured Teachers</h2>
+        <div class="orange-divider"></div>
+    </header>`;
+
+    const cardContainer = `
+    <div id="teachers-info">
+    </div>`;
+
+    const button = `
+    <a id="more-btn" class="upper-case mobile" href="#more-btn">
+        more&nbsp;
+        <i id="angle-down-icon" class="fas fa-angle-down"></i>
+    </a>`;
+
+    teacherSection.insertAdjacentHTML('afterbegin', button);
+    teacherSection.insertAdjacentHTML('afterbegin', cardContainer);
+    teacherSection.insertAdjacentHTML('afterbegin', header);
+
+    const container = document.querySelector('#teachers-info');
+
+    for(let i = teachersData.length - 1; i >= 0; i -= 1) {
+        const teacherCard = `
+        <div id="teacher-${i + 1}" class="teacher">
+            <div class="teacher-img-container">
+                <img class="teacher-photo" src="${teachersData[i].image}" alt="Professor ${i + 1} photo">
+            </div>
+            <div class="teacher-info">
+                <h3 class="teacher-name">${teachersData[i].name}</h3>
+                <h2 class="teacher-degree">${teachersData[i].degree}</h2>
+                <div class="dark-divider"></div>
+                <p class="teacher-description p-format">${teachersData[i].description}</p>
+            </div>
+        </div>`;
+
+        container.insertAdjacentHTML('afterbegin', teacherCard);
+    }
+}
+
+window.addEventListener('load', createTeacherSection);
