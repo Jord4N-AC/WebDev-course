@@ -12,6 +12,7 @@ function display() {
     menuBtn.style.visibility = 'hidden';
     section1.style.filter = 'blur(4px)';
     mobileMenu.style.transform = 'translateY(0%)';
+    mobileMenu.style.display = 'initial';
     body.style.overflow = 'hidden';
 }
 
@@ -19,6 +20,7 @@ function disapear() {
     menuBtn.style.visibility = 'visible';
     section1.style.filter = 'none';
     mobileMenu.style.transform = 'translateY(-100%)';
+    mobileMenu.style.display = 'none';
     body.style.overflow = 'initial';
 }
 

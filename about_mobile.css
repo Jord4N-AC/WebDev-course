@@ -126,6 +126,7 @@
   
   /* Mobile Menu */
   #mobile-menu-container {
+    display: none;
     box-sizing: border-box;
     position: fixed;
     width: 100%;
