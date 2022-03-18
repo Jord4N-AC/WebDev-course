@@ -66,13 +66,11 @@
 }
 
 /* Footer */
-#footer-page {  
+#footer-page {
   background-color: var(--darkGray);
   color: var(--lightGray);
 }
 
 #footer-logo {
   filter: invert(90%);
-
 }
-

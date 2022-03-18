@@ -95,6 +95,11 @@ a {
   transition: all 0.4s;
 }
 
+.page-link,
+.alone-link {
+  margin-left: 25px;
+}
+
 .page-link:hover {
   text-decoration: underline var(--darkGray);
 }
@@ -102,10 +107,6 @@ a {
 .page-link:active {
   color: var(--orange);
   text-decoration: underline var(--orange);
-}
-
-.page-link, .alone-link {
-  margin-left: 25px;
 }
 
 .alone-link {
@@ -245,7 +246,7 @@ a {
 }
 
 #header-group-main h1 {
-  font-family: 'COCOGOOSE', 'Lato',sans-serif;
+  font-family: 'COCOGOOSE', 'Lato', sans-serif;
   font-size: 49px;
   font-weight: 1000;
   line-height: 50px;
@@ -268,6 +269,12 @@ a {
 #more-info-main h2 {
   font-size: 30px;
   font-weight: 900;
+}
+
+.card-header h3 {
+  font-size: 24px;
+  width: 60%;
+  color: var(--orange);
 }
 
 #more-info-main h3 {
@@ -329,12 +336,6 @@ a {
   flex-wrap: wrap;
   align-items: center;
   width: 35%;
-}
-
-.card-header h3 {
-  font-size: 24px;
-  width: 60%;
-  color: var(--orange);
 }
 
 .fas,
@@ -399,7 +400,7 @@ a {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  margin: 10% 0;  
+  margin: 10% 0;
 }
 
 .teacher {
@@ -438,7 +439,6 @@ a {
 
 .teacher-name {
   font-size: 24px;
-  
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -490,7 +490,7 @@ a {
   color: var(--white);
 }
 
-#more-btn:hover{
+#more-btn:hover {
   background-color: var(--orange);
   color: var(--white);
   border: 2px solid var(--orange);
@@ -531,6 +531,11 @@ a {
   margin: 5px 20px;
 }
 
+#airbnb-link,
+.fa-airbnb {
+  font-size: 2rem;
+}
+
 .partner-link:hover,
 .fa-airbnb:hover {
   color: var(--white);
@@ -560,11 +565,6 @@ a {
 
 #daumkakao-link {
   font-size: 1.8rem;
-}
-
-#airbnb-link,
-.fa-airbnb {
-  font-size: 2rem;
 }
 
 /* Footer */
@@ -607,9 +607,6 @@ footer {
   }
 }
 
-@media (min-width: 690px) {
-}
-
 @media (max-width: 600px), (min-width: 768px) {
   .card {
     flex-direction: column;
@@ -622,7 +619,7 @@ footer {
   .card-header h3,
   .fas,
   .far,
-  .card p  {
+  .card p {
     width: 100%;
   }
 }
