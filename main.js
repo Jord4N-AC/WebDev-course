@@ -7,7 +7,6 @@ const menuBtn = document.querySelector('#menu-icon');
 
 
 
-
 function display() {
     menuBtn.style.visibility = 'hidden';
     section1.style.filter = 'blur(4px)';
@@ -27,7 +26,7 @@ function disapear() {
 function disapearEcsResize(event) {
     if(
         event.key === 'Escape'
-        || innerWidth > 767
+        || window.innerWidth > 767
     ) {
         disapear();
     }
@@ -98,10 +97,7 @@ function createTeacherSection() {
     </div>`;
 
     const button = `
-    <a id="more-btn" class="upper-case mobile" href="#more-btn">
-        more&nbsp;
-        <i id="angle-down-icon" class="fas fa-angle-down"></i>
-    </a>`;
+    <a id="more-btn" class="upper-case mobile" href="#more-btn">more<i id="angle-down-icon" class="fas fa-angle-down"></i></a>`;
 
     teacherSection.insertAdjacentHTML('afterbegin', button);
     teacherSection.insertAdjacentHTML('afterbegin', cardContainer);
@@ -127,4 +123,43 @@ function createTeacherSection() {
     }
 }
 
-window.addEventListener('load', createTeacherSection);
+createTeacherSection();
+// window.addEventListener('load', createTeacherSection);
+
+// More Button
+const moreBtn = document.querySelector('#more-btn');
+const cardsToHide = document.querySelectorAll('#teacher-3, #teacher-4, #teacher-5, #teacher-6');
+const btnIcon = document.querySelector('#angle-down-icon');
+
+
+function moreLessCards() {
+    cardsToHide.forEach((card) => {
+        if(card.style.display === 'flex') {
+            card.style.display = 'none';
+            moreBtn.innerHTML = 'more';
+            btnIcon.style.transform = 'rotate(0deg)';
+            moreBtn.appendChild(btnIcon);
+            
+            
+        } else {
+            card.style.display = 'flex';
+            moreBtn.innerHTML = 'less';
+            btnIcon.style.transform = 'rotate(180deg)';
+            moreBtn.appendChild(btnIcon);
+        }
+    });
+}
+
+function moreCardsResize() {
+    if(window.innerWidth > 767 ) {
+        cardsToHide.forEach((card) => {
+            card.style.display = 'flex';
+            moreBtn.innerHTML = 'less';
+            btnIcon.style.transform = 'rotate(180deg)';
+            moreBtn.appendChild(btnIcon);
+        });
+    }
+}
+
+moreBtn.addEventListener('click', moreLessCards);
+window.addEventListener('resize', moreCardsResize);

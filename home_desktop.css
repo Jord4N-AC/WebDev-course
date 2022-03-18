@@ -39,6 +39,13 @@
   flex-direction: row;
 }
 
+#teacher-3,
+#teacher-4,
+#teacher-5,
+#teacher-6 {
+  display: flex;
+}
+
 
 /* Partner Section */
 #partner-section {
