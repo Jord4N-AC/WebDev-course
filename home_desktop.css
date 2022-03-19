@@ -1,0 +1,57 @@
+.mobile,
+#more-btn,
+#menu-icon {
+  display: none;
+}
+
+/* Navigation Bar 1 & 2 */
+#bar-1 {
+  display: block;
+}
+
+#bar-2 {
+  display: flex;
+}
+
+/* Program Content Section */
+#content-cards {
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  justify-content: initial;
+  width: 250px;
+  margin: 5px;
+}
+
+.card-header {
+  text-align: center;
+}
+
+#see-program-link {
+  display: block;
+}
+
+/* Featured Teachers Section */
+.teacher {
+  flex-direction: row;
+}
+
+#teacher-3,
+#teacher-4,
+#teacher-5,
+#teacher-6 {
+  display: flex;
+}
+
+/* Partner Section */
+#partner-section {
+  display: block;
+}
+
+/* Footer */
+#footer-page {
+  display: flex;
+}

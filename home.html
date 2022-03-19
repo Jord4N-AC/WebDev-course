@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebDev Courses</title>
+    <link rel="stylesheet" href="home_mobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="home_desktop.css">
+    <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/242e63f88a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navigation Bar 1 -->
+    <nav id="bar-1" class="page-padding desktop">
+        <a class="link-bar-1" href="https://www.facebook.com/">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+        <a class="link-bar-1" href="https://twitter.com/home">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a class="link-bar-1 text-link" href="#">English</a>
+        <a class="link-bar-1 text-link" href="#">My Page</a>
+        <a class="link-bar-1 text-link" href="#">Logout</a>
+    </nav>
+
+    <!-- Navigation Bar 2 -->
+    <nav id="bar-2" class="page-padding desktop">
+        <a class="logo-menu" href="#">
+            <img src="images/logo/logo_no_bg.png" alt="WebPage Logo" title="Home">
+        </a>
+        <div class="page-link-group">
+            <a class="page-link" href="about.html">About</a>
+            <a class="page-link" href="#">Program</a>
+            <a class="page-link" href="#">Join</a>
+            <a class="page-link" href="#">Sponsor</a>
+            <a class="page-link" href="#">News</a>
+        </div>
+        <a class="alone-link" href="#">WD Courses</a>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu-container">
+        <nav id="mobile-menu">
+
+            <div id="mobile-menu-header">
+                <a id="mobile-menu-logo" class="logo-menu" href="#">
+                    <img src="images/logo/logo_no_bg.png" alt="WebPage Logo" title="Home">
+                </a>
+                <span id="close-icon">&times;</span>
+            </div>
+
+            <div class="mobile-link-group">
+                <a class="mobile-link" href="about.html">About</a>
+                <a class="mobile-link" href="#">Program</a>
+                <a class="mobile-link" href="#">Join</a>
+                <a class="mobile-link" href="#">Sponsor</a>
+                <a class="mobile-link" href="#">News</a>
+            </div>
+            
+            <a class="alone-link alone-link-mobile" href="#">WD Courses</a>
+        </nav>
+    </div>
+
+    <!-- Main Section -->
+    <main id="main-section" class="page-padding">
+        
+        <!-- Menu Icon -->
+        <i id="menu-icon" class="fas fa-bars"></i>
+
+        <div>
+            <header id="header-group-main">
+                <h2>"Hello! Newbies"</h2>
+                <h1 class="upper-case">
+                    find the best courses <br>
+                    about web development, <br>
+                    here in one place
+                </h1>
+            </header>
+            <p id="description-main" class="p-format">
+                The most accesible way to become a software developer and land a jod that will 
+                change you life, here in this Web Site you are going to find the best resources, 
+                you need to learn to become a competitive software developer, interactive content, 
+                videos, quizes and the best teachers that will help in this new journey.
+            </p>
+            <div id="more-info-main">
+                <h2 class="upper-case">2015.10.15(thu) ~ 16(fri)</h2>
+                <h3>@ National Museum of Korea, Art Center Nabi and more</h3>
+            </div>
+        </div>
+    </main>
+
+    <!-- Program Content Section -->
+    <section id="course-content" class="page-padding">
+        <header id="content-header-group">
+            <h2>Main Program</h2>
+            <div class="orange-divider"></div>
+        </header>
+
+        <div id="content-cards">
+            <div id="card-1" class="card">
+                <div class="card-header">
+                    <i class="fas fa-user-check"></i>
+                    <h3>Access</h3>
+                </div>
+                <p class="p-format">
+                    Pay once and get access for live, even if you already have completed 
+                    your program you can turn back to us and we will be happy to help you.
+                </p>
+            </div>
+            <div id="card-2" class="card">
+                <div class="card-header">
+                    <i class="fas fa-copy"></i>
+                    <h3>Resources</h3>
+                </div>
+                <p class="p-format">
+                    We have compared and curated our content with hundreds of Academies 
+                    to give you the best information and help you learn quickly.
+                </p>
+            </div>
+            <div id="card-3" class="card">
+                <div class="card-header">
+                    <i class="far fa-calendar-alt"></i>
+                    <h3>Flexible</h3>
+                </div>
+                <p class="p-format">
+                    We have for you the most flexible schedules, our teachers are available 
+                    for you 24/7, we won't set your schedule, you will set  your own schedule.
+                </p>
+            </div>
+            <div id="card-4" class="card">
+                <div class="card-header">
+                    <i class="far fa-clock"></i>
+                    <h3>Support 24/7</h3>
+                </div>
+                <p class="p-format">
+                    We are available 24/7 for you, if you have any concern or doubts 
+                    you can reach out to us at any time you want.
+                </p>
+            </div>
+            <div id="card-5" class="card">
+                <div class="card-header">
+                    <i class="fas fa-users"></i>
+                    <h3>Community</h3>
+                </div>
+                <p class="p-format">
+                    We encounter with an amazing and wide community, 
+                    where you can find support from others and meet like-minded people.
+                </p>
+            </div>
+        </div>
+
+        <div id="content-footer">
+            <a id="join-btn" class="mobile" href="#join-btn">Join Our Program NOW!</a>
+            <a id="see-program-link" class="upper-case desktop" href="#see-program-link">see the hole program</a>
+        </div>
+    </section>
+
+    <!-- Featured Teachers Section -->
+    <section id="featured-teachers" class="page-padding">
+        <!-- Section Built Dynamically on javaScript -->
+    </section>
+
+    <!-- Partner Section -->
+    <section id="partner-section" class="page-padding desktop">
+        <h2 id="partner-header">Partner</h2>
+        <div class="orange-divider"></div>
+        <nav id="partner-link-group">
+            <a class="partner-link" id="mozilla-link" href="https://www.mozilla.org/en-US/">mozilla</a>
+            <a class="partner-link" id="google-link" href="https://www.google.com/">Google</a>
+            <a class="partner-link upper-case" id="naver-link" href="https://www.naver.com/">naver</a>
+            <a class="partner-link" id="daumkakao-link" href="https://www.kakaocorp.com/page/">daumkakao</a>
+            <a class="partner-link" id="airbnb-link" href="https://www.airbnb.com.ec/">
+                <i class="fab fa-airbnb"></i>
+                airbnb
+            </a>
+        </nav>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer-page" class="page-padding desktop">
+        <img id="footer-logo" src="images/logo/logo_no_bg.png" alt="WebPage Logo">
+        <h4 id="footer-text" >2021 WebDev Courses. Some Rights Reserved</h4>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

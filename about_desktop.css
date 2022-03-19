@@ -1,0 +1,76 @@
+:root {
+  --white: #fff;
+  --lightGray: #d3d3d3;
+  --darkGray: #272a31;
+  --black: #000;
+  --orange: #ec5242;
+}
+
+.mobile,
+#more-btn,
+#menu-icon {
+  display: none;
+}
+
+/* Navigation Bar 1 & 2 */
+#bar-1 {
+  display: block;
+}
+
+#bar-2 {
+  display: flex;
+}
+
+/* Main Section */
+#small-hader-main {
+  display: none;
+}
+
+#divider-main {
+  display: block;
+}
+
+#email::after {
+  content: ' >';
+}
+
+/* Program Content Section */
+#content-cards {
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  justify-content: initial;
+  width: 250px;
+  margin: 5px;
+}
+
+.card-header {
+  text-align: center;
+}
+
+#see-program-link {
+  display: block;
+}
+
+/* Logo Section */
+#p-logo-section::after {
+  content: 'The competition was witnessed by so many fans, they were part of the jury, their opinion was a very important part in this process, after this the Logo was analyzed by experts for the final decision.';
+}
+
+/* Partner Section */
+#partner-section {
+  display: none;
+}
+
+/* Footer */
+#footer-page {
+  background-color: var(--darkGray);
+  color: var(--lightGray);
+}
+
+#footer-logo {
+  filter: invert(90%);
+}
